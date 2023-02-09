@@ -307,16 +307,16 @@ class _ProjectDetailDesktopState extends State<ProjectDetailDesktop>
                             spacing: 8,
                             runSpacing: 8,
                             children: [
-                              widget.projectDetails!.isPublic!
-                                  ? SocialButton(
-                                      icon: FontAwesomeIcons.github,
-                                      onPressed: () {
-                                        Functions.launchUrl(
-                                          widget.projectDetails!.gitHubUrl!,
-                                        );
-                                      },
-                                    )
-                                  : Emptiness(),
+                              // widget.projectDetails!.isPublic!
+                              //     ? SocialButton(
+                              //         icon: FontAwesomeIcons.,
+                              //         onPressed: () {
+                              //           Functions.launchUrl(
+                              //             widget.projectDetails!.gitHubUrl!,
+                              //           );
+                              //         },
+                              //       )
+                              //     : Emptiness(),
                               widget.projectDetails!.isOnPlayStore!
                                   ? InkWell(
                                       onTap: () {

@@ -294,7 +294,7 @@ class _PortfolioPageDesktopState extends State<PortfolioPageDesktop>
                   isPublic: portfolioData[i].isPublic,
                   isLive: portfolioData[i].isLive,
                   isOnPlayStore: portfolioData[i].isOnPlayStore,
-                  gitHubUrl: portfolioData[i].gitHubUrl,
+                  // gitHubUrl: portfolioData[i].gitHubUrl,
                   hasBeenReleased: portfolioData[i].hasBeenReleased,
                   technologyUsed: portfolioData[i].technologyUsed,
                   playStoreUrl: portfolioData[i].playStoreUrl,

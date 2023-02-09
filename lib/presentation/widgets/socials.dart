@@ -69,7 +69,7 @@ class Socials extends StatelessWidget {
                   margin: EdgeInsets.symmetric(vertical: Sizes.MARGIN_4),
                 ),
                 SocialButton(
-                  icon: FontAwesomeIcons.facebook,
+                  icon: FontAwesomeIcons.instagram,
                   alignment: alignment,
                   onPressed: () {
                     Functions.launchUrl(StringConst.TELEGRAM_URL);
@@ -123,7 +123,7 @@ class Socials extends StatelessWidget {
                   color: barColor,
                 ),
                 SocialButton(
-                  icon: FontAwesomeIcons.facebook,
+                  icon: FontAwesomeIcons.instagram,
                   alignment: alignment,
                   onPressed: () {
                     Functions.launchUrl(StringConst.TELEGRAM_URL);

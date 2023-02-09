@@ -1,10 +1,16 @@
 part of values;
 
 class StringConst {
+// MY STRINGS
+  static const String ECCOME_STACK = "SHOPIFY, FIGMA, GSUITE, MAILCHIMP, TIDIO";
+  static const String MARKETING_STACK =
+      "PHOTOSHOP, FIGMA, GSUITE, MAILCHIMP, SQUARESPACE";
+  static const String SOFT_STACK_FLUTTER = "GCP, FLUTTER, SQL, FIREBASE";
+  static const String SOFT_STACK_NODEJS = "NODEJS, EXPRESS, SQL, PUG";
   //strings
   static const String APP_NAME = "Zabbu";
   static const String APP_TITLE = "Zabbu Marketing";
-  static const String SITE_URL = "https://zabbumarketing.com";
+  static const String SITE_URL = "https://zabbu.org";
 
   static const String HOME = "Home";
   static const String ABOUT_ME = "About";
@@ -13,22 +19,22 @@ class StringConst {
   static const String WORK = "Case Studies";
   static const String SERVICES = "Services";
   static const String CONTACT = "Contact";
-  static const String PHONE_NUMBER = "Phone Number";
+  static const String PHONE_NUMBER = "07796780802";
   static const String RESUME = "Resume";
   static const String CERTIFICATIONS = "Documents";
-  static const String EMAIL_VALUE = "info@digitalcats.co.uk";
+  static const String EMAIL_VALUE = "marketing@joppaa.co.uk";
 
   static const String MESSAGE_ME = "Message me";
-  static const String GET_IN_TOUCH = "Get in touch";
+  static const String GET_IN_TOUCH = "";
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
-  static const String BUILT_WITH = "Built with ";
-  static const String DEV_EMAIL = "info@digitalcats.co.uk";
+  static const String BUILT_WITH = "";
+  static const String DEV_EMAIL = "marketing@joppaa.co.uk";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
 
   static const String KEY_SKILLS = "SOFTWARE";
   static const String EXPERIENCE_2 = "EXPERIENCE";
-  static const String EDUCATION = "BRANDING";
+  static const String EDUCATION = "BUSINESS";
 
   static const String SEND_ME_A_MESSAGE = "Send me a message";
   static const String VIEW_PORTFOLIO = "Our Latest Work";
@@ -44,7 +50,7 @@ class StringConst {
   static const String BUILT_BY = "Built by Carlos Tamale ";
 
   static const String ABOUT_DEV_TEXT =
-      "I am A Team of Marketing, Software and Graphic engineers based in Fallowfield,Manchester, specializing in building high quality digital solutions for mobile and web  with a strong passion for inovative projects. Our goal is to always deliver your desired outcome. We are users focued with a in house user experince knowlegde from prior projects.";
+      "I am a Team of Marketing, Software and Graphic engineers based in Fallowfield,Manchester, specializing in building high quality digital solutions for mobile and web  with a strong passion for inovative projects. Our goal is to always deliver your desired outcome. We are users focused with a in house UI/UX knowlegde from prior projects.";
 
   static const String EDUCATION_TEXT =
       "We help clients see the bigger picture to unleash growth";
@@ -84,10 +90,13 @@ class StringConst {
 
   //Socials
   static const String GITHUB_URL = "https://github.com/joppaa-main";
-  static const String LINKED_IN_URL = "https://www.linkedin.com/company/zabbumarketing/";
-  static const String TWITTER_URL = "https://twitter.com/joppaashopping";
-  static const String INSTAGRAM_URL = "https://www.instagram.com/zabbumarketing";
-  static const String TELEGRAM_URL = "https://t.me/Notfound";
+  static const String LINKED_IN_URL =
+      "https://www.linkedin.com/company/zabbumarketing/";
+  static const String TWITTER_URL = "https://www.tiktok.com/@digitalcatsuk";
+  static const String INSTAGRAM_URL =
+      "https://www.instagram.com/zabbumarketing";
+  static const String TELEGRAM_URL =
+      "https://www.instagram.com/zabbumarketing/";
   //Contacts
   static const String CONNECT = "Connect with me";
   static const String EMAIL = "Email";
@@ -114,7 +123,7 @@ class StringConst {
 
   //Experience
   static const String CURRENT_MONTH_YEAR = "Sept 2022 - Current";
- static const String STARTED_MONTH_YEAR = "Sept 2022";
+  static const String STARTED_MONTH_YEAR = "Sept 2022";
 
   static const String COMPANY_1 = "Digital Cats";
   static const String COMPANY_1_URL = "https://www.digitalcats.co.uk/";
@@ -174,8 +183,7 @@ class StringConst {
       "A candy drinks company, Cooled is special for making drinks out of hard candy";
   static const String LOGIN_CATALOG_DETAIL =
       "Cooled had the right product but they never had business experience. They didn't know what it takes to gets product to market. They turned to Zabbu to help them set up a business plan and to create a financial model for them. We made them look professional \n The project lasted 3 months. With consulting with the founders to discover a business model. We then write a financial plan around the business model. We then set up a plan of action, researched for suppliers of key assets.";
-  static const String LOGIN_CATALOG_GITHUB_URL =
-      "";
+  static const String LOGIN_CATALOG_GITHUB_URL = "";
 
   static const String VYBZ = "Athol";
   static const String VYBZ_SUBTITLE =
@@ -196,33 +204,29 @@ class StringConst {
       "A team of developers and business analysts working together to turn ideas into software systems.";
   static const String FOODY_BITE_DETAIL =
       "Digital cat wanted a brand that screened future but still had the anolog statement.  Also they wanted to create a  NFT cat because of thier name. The project lasted 2 months. Digital Cats wanted a specific look and was going to stop at nothing but with lots of revision and options we provided them. Thier ideal brand started to emerge.";
-  static const String FOODY_BITE_GITHUB_URL =
-      "";
+  static const String FOODY_BITE_GITHUB_URL = "";
 
   static const String ONBOARDING_APP = "Ayas Grill Mcr";
-  static const String ONBOARDING_APP_SUBTITLE = "A East African cuisine. in the heart of Great Western Street.";
+  static const String ONBOARDING_APP_SUBTITLE =
+      "A East African cuisine. in the heart of Great Western Street.";
   static const String ONBOARDING_APP_DETAIL =
       "Ayas grill lacked a brand that told their story.  They had a few designs and screens. Aisha wanted to make a statement in Mosside that her shop was different from a regular takeaway or restaurant.The project lasted for 8 months. in the end Ayas grill became a household name on Great Western Street.  We branded the shop into a eastern brand with inspiration from Asia and Arabia as most dishes were prepared in that tradition.";
-  static const String ONBOARDING_APP_GITHUB_URL =
-      "";
+  static const String ONBOARDING_APP_GITHUB_URL = "";
 
   static const String OTP_TEXT_FIELD = "Love Cafe";
   static const String OTP_TEXT_FIELD_SUBTITLE =
       "A Ethiopian British restaurant offering a traditional Ethiopia experience to its customers";
   static const String OTP_TEXT_FIELD_DETAIL =
       "Love cafe wanted to represent their experience in their menu and wanted Zabbu to help with this.We delivered a custom brand to shared the Ethiopian background of love cafe with their British customers";
-  static const String OTP_TEXT_FIELD_GITHUB_URL =
-      "";
-  static const String OTP_TEXT_FIELD_WEB_URL =
-      "";
+  static const String OTP_TEXT_FIELD_GITHUB_URL = "";
+  static const String OTP_TEXT_FIELD_WEB_URL = "";
 
   static const String FINOPP = "HQ Food and Drink";
   static const String FINOPP_SUBTITLE =
       "A Nigerian Food and drink restaurant based in fallowfield. ";
   static const String FINOPP_DETAIL =
       "HQ need a new menu to match all the other restaurant menu. they wanted their menu to be loved and to include their new cocktails. They also wanted to reach the students during Freshers season. The project lasted two months, we help Henry formulate a brand and set up atmosphere I'm his restaurant. We introduced A3 menus and booklet menus to HQs customers and they loved.";
-  static const String FINOPP_GITHUB_URL =
-      "";
+  static const String FINOPP_GITHUB_URL = "";
 
   static const String FLUTTER_CATALOG = "Joppaa";
   static const String FLUTTER_CATALOG_SUBTITLE =
@@ -232,27 +236,20 @@ class StringConst {
   static const String FLUTTER_CATALOG_GITHUB_URL = "";
 
   static const String BEQUIP_LOGISTICS = "7 Homes";
-  static const String BEQUIP_LOGISTICS_SUBTITLE =
-      "";
-  static const String BEQUIP_LOGISTICS_DETAIL =
-      "";
+  static const String BEQUIP_LOGISTICS_SUBTITLE = "";
+  static const String BEQUIP_LOGISTICS_DETAIL = "";
   static const String BEQUIP_LOGISTICS_WEB_URL = "";
 
   static const String AERIUM = "Boozemart";
-  static const String AERIUM_SUBTITLE =
-      "";
-  static const String AERIUM_DETAIL =
-      "";
-  static const String AERIUM_GITHUB_URL =
-      "";
+  static const String AERIUM_SUBTITLE = "";
+  static const String AERIUM_DETAIL = "";
+  static const String AERIUM_GITHUB_URL = "";
   static const String AERIUM_WEB_URL = SITE_URL;
 
   static const String LEARN_UPP = "Sterling Study";
   static const String LEARN_UPP_SUBTITLE = "A Learning app concept";
-  static const String LEARN_UPP_DETAIL =
-      "";
-  static const String LEARN_UPP_GITHUB_URL =
-      "";
+  static const String LEARN_UPP_DETAIL = "";
+  static const String LEARN_UPP_GITHUB_URL = "";
 
   static const String CIRCE = "Circe";
   static const String PROXIMA_NOVA = "ProximaNova";

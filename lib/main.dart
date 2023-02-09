@@ -4,8 +4,14 @@ import 'package:zabbu/app_theme.dart';
 import 'package:zabbu/presentation/pages/home/home_page.dart';
 import 'package:zabbu/presentation/routes/routes.dart';
 import 'package:zabbu/values/values.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+import 'package:zabbu/firebase_options.dart'  ;
 
 void main() async {
+  FirebaseApp app = await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform  ,
+    );
   WidgetsFlutterBinding.ensureInitialized();
   GoogleFonts.config.allowRuntimeFetching = false;
   runApp(MyApp());
