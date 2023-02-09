@@ -8,6 +8,8 @@ import 'package:zabbu/presentation/pages/experience/experience_page.dart';
 import 'package:zabbu/presentation/pages/home/home_page.dart';
 import 'package:zabbu/presentation/pages/portfolio/portfolio_page.dart';
 
+import '../presentation/pages/contact/contact_page.dart';
+
 part 'colors.dart';
 part 'borders.dart';
 part 'images.dart';

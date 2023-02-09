@@ -37,6 +37,8 @@ dependencies:
   flutter_bloc: ^8.1.1
   flushbar: ^1.10.4
   firebase_database: ^10.0.10
+  get_it: ^7.2.0
+  flutter_flushbar: ^0.0.2
 
 dev_dependencies:
   flutter_test:
